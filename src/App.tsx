@@ -5,7 +5,7 @@ import NotFound from './pages/NotFound';
 import { Routes, Route } from 'react-router-dom';
 import './scss/app.scss';
 import FullPizza from './pages/FullPizza';
-const Cart = React.lazy(() => import('./pages/Cart'));
+import Cart from './pages/Cart';
 
 
 function App() {
